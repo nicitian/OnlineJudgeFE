@@ -11,7 +11,7 @@ function resolve (dir) {
 }
 
 const NODE_ENV = utils.getNodeEnv()
-const NODE_ENV = 'development'
+// NODE_ENV = 'development'
 
 const vendors = [
   'vue/dist/vue.esm.js',

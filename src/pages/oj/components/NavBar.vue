@@ -19,7 +19,7 @@
         {{$t('m.NavStatus')}}
       </Menu-item>
       <Submenu name="rank">
-        <template slot="title">
+        <template slot="title">￥
           <Icon type="podium"></Icon>
           {{$t('m.Rank')}}
         </template>
@@ -38,9 +38,9 @@
         <Menu-item name="/about">
           {{$t('m.Judger')}}
         </Menu-item>
-        <Menu-item name="/FAQ">
+        <!-- <Menu-item name="/FAQ">
           {{$t('m.FAQ')}}
-        </Menu-item>
+        </Menu-item> -->
       </Submenu>
       <template v-if="!isAuthenticated">
         <div class="btn-menu">

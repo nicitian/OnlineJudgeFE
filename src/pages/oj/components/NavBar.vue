@@ -19,12 +19,13 @@
         {{$t('m.NavStatus')}}
       </Menu-item>
       <Submenu name="rank">
-        <template slot="title">￥
+        <template slot="title">
           <Icon type="podium"></Icon>
           {{$t('m.Rank')}}
         </template>
         <Menu-item name="/acm-rank">
-          {{$t('m.ACM_Rank')}}
+          <!-- {{$t('m.ACM_Rank')}} -->
+          Rank
         </Menu-item>
         <Menu-item name="/oi-rank">
           {{$t('m.OI_Rank')}}
